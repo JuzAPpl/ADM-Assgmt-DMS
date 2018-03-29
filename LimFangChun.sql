@@ -8084,3 +8084,19 @@ insert into Compensate (CompensateID, DistributeDate, Status, Quantity, OccurID,
 insert into Compensate (CompensateID, DistributeDate, Status, Quantity, OccurID, StaffID, ResourceID) values ('CP00498', '30/12/2017', 'Expired', '43', 'OC0731', 'ST103', 'R004');
 insert into Compensate (CompensateID, DistributeDate, Status, Quantity, OccurID, StaffID, ResourceID) values ('CP00499', '09/02/2018', 'Delivered', '72', 'OC0560', 'ST113', 'R002');
 insert into Compensate (CompensateID, DistributeDate, Status, Quantity, OccurID, StaffID, ResourceID) values ('CP00500', '04/04/2017', 'Delivered', '46', 'OC0854', 'ST189', 'R004');
+
+
+--Count records
+select count(*) AS 'State table records' from State;
+select count(*) AS 'City table records' from City;
+select count(*) AS 'Citizen table records' from Citizen;
+select count(*) AS 'Disaster table records' from Disaster;
+select count(*) AS 'Occur table records' from Occur;
+select count(*) AS 'Supplier table records' from Supplier;
+select count(*) AS 'Resources table records' from Resources;
+select count(*) AS 'Supply table records' from Supply;
+select count(*) AS 'Victim table records' from Victim;
+select count(*) AS 'Patient table records' from Patient;
+select count(*) AS 'Staff table records' from Staff;
+select count(*) AS 'Treatment table records' from Treatment;
+select count(*) AS 'Compensate table records' from Compensate;
